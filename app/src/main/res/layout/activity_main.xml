@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="707813227@qq.com" />
+    <Button
+        android:layout_marginTop="100dp"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list + Play page" />
+    <Button
+        android:id="@+id/list_vp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewpage frament list" />
+    <Button
+        android:id="@+id/list_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="list + Small" />
+
+</LinearLayout>
